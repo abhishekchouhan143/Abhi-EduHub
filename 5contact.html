@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="fav icon.jpg" type="image/x-icon">
+    <title>ABHI-EDUHUB</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- start nav-bar  -->
+    <header class="section-navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html"
+            ><img class="logo" src="logo.jpg" alt="abhi logo"
+          /></a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="2about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="3services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="4blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="5contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- nav bar end  -->
+    <div class="magic">
+      <div class="form-start">
+        <!-- first contact start  -->
+        <div class="first-contact">
+          <form
+            class="display-column"
+            action="https://formspree.io/f/mjkbqeyv"
+            method="POST"> 
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="Username"
+              id="Username"
+              aria-autocomplete="off"
+              placeholder="enter your name"
+            />
+          </form>
+
+          <!-- second search  -->
+          <form
+            class="display-column"
+            action="https://formspree.io/f/mjkbqeyv"
+            method="POST"
+            > <!-- ye action formspree website se laya hai -->
+            <label for="email">Enter your e-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              aria-autocomplete="off"
+              placeholder="abc@abhi.com"
+            />
+          </form>
+        </div>
+        <!-- first-contact end  -->
+
+        <!-- message start  -->
+         <form  action="https://formspree.io/f/mjkbqeyv"
+         method="POST">
+         <div class="message">
+           <label for="subject">Subject</label>
+           <input
+           class="title"
+           type="text"
+           name="subject"
+           id="subject"
+           placeholder="  Your main title... "
+           />
+           <label for="message">Message</label>
+           <textarea
+           name="message"
+           id="message"
+           cols="30"
+           rows="8"
+           placeholder="Typing here...."
+           ></textarea>
+           <button type="submit" class="m-btn">Send message</button>
+          </div>
+        </div>
+      </form>
+      <!-- message end  -->
+
+      <!-- map start  google map embed html-->
+      <!-- formspree website se email receive hoga  -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235526.94958342303!2d75.6990323592453!3d22.72420500027285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1727008711484!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

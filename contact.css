@@ -1,0 +1,116 @@
+.first-contact {
+  display: flex;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 50px;
+  font-size: 19px;
+}
+.display-column input {
+  width: 202px;
+  height: 33px;
+  font-size: 17px;
+}
+
+.title {
+  height: 45px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 485px;
+  margin-left: 80px;
+  gap: 16px;
+  font-size: 20px;
+}
+.m-btn {
+  width: 133px;
+  height: 43px;
+  background-color: blue;
+  color: white;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.magic {
+  display: flex;
+}
+.map {
+  margin-top: 77px;
+  margin-left: 60px;
+  border-radius: 8px;
+}
+
+/* responsiveness  */
+@media (max-width: 700px) {
+  .first-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .display-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .display-column input {
+    height: 30px;
+    width: 280px;
+    font-size: 17px;
+    margin-left: -71px;
+  }
+
+  .title {
+    height: 30px;
+    width: 280px;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: -59px;
+
+  }
+
+  .message {
+    width:200px;
+    height:90px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 60px;
+    gap: 16px;
+    font-size: 20px;
+  }
+  .message label{
+    margin-left: -60px;
+  }
+  .m-btn {
+    width: 148px;
+    height: 59px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 7px;
+  }
+  .magic {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    margin-top: 320px;
+    margin-left: 4px;
+    border-radius: 7px;
+  }
+}
