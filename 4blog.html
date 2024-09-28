@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="fav icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="fav icon.jpg" type="image/x-icon" />
     <title>ABHI-EDUHUB</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utils.css" />
@@ -29,24 +29,37 @@
         box-shadow: 0 0 6px rgb(30, 28, 28);
         box-sizing: border-box;
       }
-      .cards-1 img {
-        height: 220px;
-        width: 247px;
-      }
-      .cards-1:hover {
-        height: 324px;
-        width: 305px;
+
+      .video {
+        height: 300px;
+        width: 280px;
+        margin-top: -70px;
         cursor: pointer;
       }
+
       @media (max-width: 700px) {
         .cards {
-          height: 1450px;
-          width:400px;
+          height: 100%;
+          width: 100%;
           display: flex;
+          margin-bottom: 160px;
           flex-direction: column;
-          margin: auto;
-          margin-bottom: 350px;
+          
+          align-items: center;
+          text-align: center;
+          justify-content: center;
         }
+        .cards-1 {
+          height: 320px;
+          width: 300px;
+          margin-bottom: 10px;
+          padding: 4px;
+          border-radius: 5px;
+          background: #f7f7f8;
+          box-shadow: 0 0 6px rgb(30, 28, 28);
+          box-sizing: border-box;
+        }
+       
       }
     </style>
   </head>
@@ -94,28 +107,48 @@
     <!-- cards start  -->
     <div class="cards">
       <div class="cards-1">
-        <img src="blog1.jpg" alt="blog images" />
-        <p><input type="date" /></p>
+        <video
+          class="video"
+          loop
+          muted
+          autoplay="autoplay"
+          src="abhi1.mp4"
+        ></video>
 
-        <h2>Code your first react app with us</h2>
+        <h2>Abhi-EduHub Website</h2>
       </div>
       <div class="cards-1">
-        <img src="blog2.jpg" alt="blog images" />
-        <p><input type="date" /></p>
+        <video
+          class="video"
+          loop
+          muted
+          autoplay="autoplay"
+          src="abhi2.mp4"
+        ></video>
 
-        <h2>Code your first react app with us</h2>
+        <h2>Complete Abhi-EduHub</h2>
       </div>
       <div class="cards-1">
-        <img src="blog3.jpg" alt="blog images" />
-        <p><input type="date" /></p>
+        <video
+          class="video"
+          loop
+          muted
+          autoplay="autoplay"
+          src="abhi3.mp4"
+        ></video>
 
-        <h2>Code your first react app with us</h2>
+        <h2>Code of Weather-App</h2>
       </div>
       <div class="cards-1">
-        <img src="blog4.jpg" alt="blog images" />
-        <p><input type="date" /></p>
+        <video
+          class="video"
+          loop
+          muted
+          autoplay="autoplay"
+          src="abhi4.mp4"
+        ></video>
 
-        <h2>Code your first react app with us</h2>
+        <h2>Result of Weather-App</h2>
       </div>
     </div>
     <!-- cards end  -->
